@@ -1,4 +1,4 @@
-"""Small FHIR R4 Patient and Condition explorer based on Claude's example.
+"""Small FHIR R4 Patient and Condition explorer.
 
 Read-only public HAPI test-server requests. Never submit real patient data.
 Retrieved test-server content is not independently verified as synthetic.
