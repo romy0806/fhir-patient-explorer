@@ -4,9 +4,6 @@ I wanted hands-on practice with FHIR, the standard format healthcare systems use
 small Python script that pulls Patient and Condition records from the public HAPI test server, turns the nested JSON into
 tables, and checks the data for problems.
 
-This is a learning project. It uses a public test server with no real patient data, and it is not a clinical analysis.
-I used AI tools (Claude, ChatGPT) to help write the code, then ran it, checked the output and wrote up what I found.
-
 ## What the script does
 - Requests Condition records from the HAPI FHIR R4 server (two pages of 50) and follows the paging links safely.
 - Picks up to 20 patients referenced by those conditions and fetches each one.
